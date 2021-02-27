@@ -22,6 +22,12 @@
     <Filter Include="源文件\6">
       <UniqueIdentifier>{ac092ef6-1bbc-4c49-9cb1-21a96be3ad7c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\7">
+      <UniqueIdentifier>{e601f620-b84c-4be8-8416-4212c1693f60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\7">
+      <UniqueIdentifier>{34911ab4-e6bd-4ad8-bfea-21863e6c4c9b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="4_3.cpp">
@@ -54,10 +60,25 @@
     <ClCompile Include="6_5_3.cpp">
       <Filter>源文件\6</Filter>
     </ClCompile>
+    <ClCompile Include="Sales_data.cpp">
+      <Filter>源文件\7</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen.cpp">
+      <Filter>源文件\7</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Sales_data.h">
+      <Filter>头文件\7</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>头文件\7</Filter>
+    </ClInclude>
+    <ClInclude Include="Window_mgr.h">
+      <Filter>头文件\7</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

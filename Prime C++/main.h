@@ -3,6 +3,10 @@
 #ifndef __MAIN_H__
 #define ustd using namespace std;
 #define MAIN main_6_5_3()
+
+class Sales_data;
+class Screen;
+
 int main_4_3();
 int main_4_5();
 int main_4_8();

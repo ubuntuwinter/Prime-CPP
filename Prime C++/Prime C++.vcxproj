@@ -148,10 +148,15 @@
     <ClCompile Include="6_4_1.cpp" />
     <ClCompile Include="6_5_3.cpp" />
     <ClCompile Include="6_7.cpp" />
+    <ClCompile Include="Sales_data.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Screen.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Sales_data.h" />
     <ClInclude Include="main.h" />
+    <ClInclude Include="Screen.h" />
+    <ClInclude Include="Window_mgr.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
